@@ -28,7 +28,6 @@ app.get('/api/todo', (req, res) => {
 
 app.post('/api/todo', (req, res) => {
   const body = req.body;
-  console.log({ body });
   const name = body?.name;
 
   if (!name) {
