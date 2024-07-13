@@ -29,5 +29,3 @@ const deleteTodo = async (id) => {
   });
   fetchTodos();
 };
-
-// fetchTodos();
